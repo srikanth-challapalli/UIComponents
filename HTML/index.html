@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- Because browser can render so many type of files, you are saying browser that this is html page. by defining it as html the browser treats that it is the latest version of html. -->
+<html>
+<head> <!--  This is the place where we tell the browser more about the current page. Like which language it is going to display like Spanish, French and what javascript references we have and the title of the page so on... -->
+<meta charset="UTF-8">
+<title>Personal Vault</title>
+
+<style>
+table.center{
+ margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+</head>
+<body  style="background-color: rgb(203, 216, 238);">
+
+<form action="Sample.html" method="post">
+	<h1 align=center> <u>Personal Vault Suite Of Applications</u></h1>
+	<p> This website allows you to upload all your personal , professional, technical  information into cloud based system so that you can access your personal files with password protected access.
+	<h3> Please provide your credentials for authentication</h3>
+	<fieldset>
+		<legend>Authenticate </legend>
+		<table  align=center>
+			<tr>
+				<td>
+					<img src="images.png" title="Login" width=150 height=150 alt="Login-Image">
+					
+				</td>
+				<td>
+					<table >
+						<tr>
+							<td><label for="UserName">User Name: </label> </td>
+							<td> <input type = "text" id="UserName" size=30 required/>
+						</tr>
+						<tr>
+							<td><label for="password">Password:</label> </td>
+							<td> <input type = "password" id="password" size=30 required/>
+						</tr>
+						<tr>
+							<td>
+								<input type=checkbox ></input>
+							</td>
+							<td>Remember me</td>
+						</tr>
+					</table>
+					<table  class="center" >
+						<tr>
+							<td><input type="submit" value="Login"> </td>
+							<td> <button Value = "Reset">Reset</button></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			
+		</table>
+	</fieldset>
+				
+</form>
+</body>
+</html>
