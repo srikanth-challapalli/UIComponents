@@ -22,16 +22,16 @@
     <main>
         <h2>Main content of our web page </h2>
         <section class="my-article">
-            <h2>Article Section --If you wish to change the color of the heading "Article Section" to dark ping , without changing remaining headings color within section tag then we have to use a selector "section.myarticle >h2 { color : darkpink} this will allow only immediate heading to change the color. The "&gt;" symbol will allow to changethe color of immediate heading. if the "&gt;" is not provided then under section all the h2 headings will change the color to pink.</h2>
+            <h2>Article Section --If you wish to change the color of the heading "Article Section" to dark ping , without changing remaining headings color within section tag then we have to use a selector "section.myarticle >h2 { color : darkpink} this will allow only immediate heading to change the color. The "&gt;" symbol will allow to change the color of immediate html element. if the "&gt;" is not provided then under section all the h2 headings will change the color to pink.</h2>
                 <article>
                     <h2>
                         Article Heading 
                     </h2>
                     <p>
-                        Para 1 : Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id, dicta ullam nulla reprehenderit fugiat fugit molestiae cupiditate dolore facere officia, maiores perferendis cum minima nostrum commodi. Atque necessitatibus, nihil voluptatibus eaque unde fuga veniam quasi laudantium velit debitis, rem amet minus ipsam modi a adipisci earum vel! Quod, voluptates perspiciatis! Eaque aliquam ipsam, non perspiciatis praesentium laborum obcaecati! Aperiam minima ducimus qui consequatur nisi corrupti ab fugit quos laborum adipisci. Iure ex exercitationem quis pariatur. Ipsa accusamus, quibusdam iure cum sit facere modi ipsum blanditiis neque aliquid sequi reiciendis hic accusantium. Molestiae fugiat doloremque earum vitae quidem veniam obcaecati totam porro, reiciendis odit beatae eos mollitia iure a ipsum enim velit error laudantium cum. Quod perferendis possimus dolore numquam facilis est molestiae veniam ratione, voluptatem veritatis nam voluptas, fuga quidem ullam exercitationem. Numquam aspernatur vero voluptas reprehenderit, eligendi sapiente dolore reiciendis nihil. Earum, illum blanditiis quasi repellendus magni dolorum deleniti ratione dignissimos recusandae exercitationem aperiam dolores molestias vitae voluptatum quae fugit ipsum? Magni eius, debitis iusto ex ad beatae maiores dignissimos eaque sunt architecto aliquam cupiditate voluptatum aperiam sequi sint impedit ullam veritatis amet nostrum molestias quasi praesentium vel. Voluptatum deleniti pariatur odit, sit laudantium cum perspiciatis animi excepturi?
+                        Para 1 : h2+p styling is applied, meaning after h2 heading the immediate para will change its color. In this page there are two such instances, so for the two paragraphs the color is changed to gray.
                     </p>
                     <p>
-                        Para 2 :Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias quam voluptates animi omnis dolores molestias voluptatum, expedita qui voluptatibus fugit aspernatur veniam laudantium, modi accusamus nobis enim esse laboriosam dolore architecto minus odit unde soluta. Quidem, corporis esse debitis neque nisi pariatur! Non, quia asperiores? Harum placeat rem laudantium labore consectetur magni reiciendis perspiciatis quo dolore? Optio tempore eum architecto delectus quibusdam dolor temporibus minus minima doloribus, dolorem nobis molestias provident non impedit quidem dignissimos dolore. Quas deleniti ea fuga maiores sint suscipit aliquam quis praesentium rerum nisi provident ut similique exercitationem at voluptate perspiciatis obcaecati id eligendi quisquam vel, enim magnam? Veniam ducimus nisi accusamus rerum, officia incidunt adipisci voluptates sed ipsa nihil minus, consectetur fugit? Rem sunt autem minima deleniti beatae quo ad voluptatum corporis ipsam commodi, numquam animi corrupti doloribus inventore architecto, eum non voluptates aliquid facilis repudiandae asperiores quia. Sint, voluptate ut animi possimus repellendus aliquid magni quos, culpa perferendis ab corporis facilis magnam obcaecati beatae sunt eligendi in, sit harum. Tempore ut et eius corrupti fugiat sequi eum, odio at aspernatur voluptates quis sunt saepe rerum provident cupiditate commodi repellat corporis aut ipsa quod, unde nemo! Vero aliquid eos natus repellat ut veritatis similique.
+                        Para 2 :h2+p+p stylying applied , meaning after h2 heading tag the second paragraph will change the color to light green .
                     </p>
                 </article>
                 <article>
@@ -39,9 +39,15 @@
                         Article Heading 
                     </h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam alias quam voluptates animi omnis dolores molestias voluptatum, expedita qui voluptatibus fugit aspernatur veniam laudantium, modi accusamus nobis enim esse laboriosam dolore architecto minus odit unde soluta. Quidem, corporis esse debitis neque nisi pariatur! Non, quia asperiores? Harum placeat rem laudantium labore consectetur magni reiciendis perspiciatis quo dolore? Optio tempore eum architecto delectus quibusdam dolor temporibus minus minima doloribus, dolorem nobis molestias provident non impedit quidem dignissimos dolore. Quas deleniti ea fuga maiores sint suscipit aliquam quis praesentium rerum nisi provident ut similique exercitationem at voluptate perspiciatis obcaecati id eligendi quisquam vel, enim magnam? Veniam ducimus nisi accusamus rerum, officia incidunt adipisci voluptates sed ipsa nihil minus, consectetur fugit? Rem sunt autem minima deleniti beatae quo ad voluptatum corporis ipsam commodi, numquam animi corrupti doloribus inventore architecto, eum non voluptates aliquid facilis repudiandae asperiores quia. Sint, voluptate ut animi possimus repellendus aliquid magni quos, culpa perferendis ab corporis facilis magnam obcaecati beatae sunt eligendi in, sit harum. Tempore ut et eius corrupti fugiat sequi eum, odio at aspernatur voluptates quis sunt saepe rerum provident cupiditate commodi repellat corporis aut ipsa quod, unde nemo! Vero aliquid eos natus repellat ut veritatis similique.
+                        Para 1 : h2+p styling is applied, meaning after h2 heading the immediate para will change its color. In this page there are two such instances, so for the two paragraphs the color is changed to gray.
                     </p>
                 </article>
+        </section>
+        <section class="my-article-1">
+            <h2>
+                section.className h2+p styling example.
+            </h2>
+            <p>This is another section with class attribute defined as my-article-1. the styling applied for this section are background color is applied and under this section the paragraph text is changed as section.my-article-1 h+p{color = violet}</p>
         </section>
     </main>
     
