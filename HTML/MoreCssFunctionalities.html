@@ -19,6 +19,9 @@
         h1#withId{<br>
             color:blue;<br>
         }<br>
+        h1.anotherClass{<br>
+            color: blueviolet;<br>
+        }<br>
  For the same same h1 html element we have applied inline style to set the color as orange. <br>
  Same h1 html element we have applied color as Green <br>
  Same h1 html element we defined class as "withClass" we have applied color as Red <br>
@@ -28,6 +31,11 @@
  Inline styling > withId styling > withClass styling > h1 element styling.<br><br>
 
 If you wish to see the color of heading as blue then we have to remove the inline styling. If you wish to see the heading as RED then we have to remove styling with Id. Green if you remove the styling with class.
+
+<br><br>
+Let's say if the h1 has two classes assigned "withClass" and "anotherClass" for one I applied Red and for another I applied blueviolet. In this case the one which is defined later in css file will take the priority<br> 
+if you wish to override this behaviour the we can add "!important" to any of the css styling then only that will take the priority. However, this is not a recommended practice.
+
 </p>
 </body>
 </html>
