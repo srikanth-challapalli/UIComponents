@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Css Functionalities</title>
+    <link rel="stylesheet" href="css/MoreCssFunctionalities.css">
+</head>
+<body>
+    <h1 class="withClass" id="withId" style="color: orange;"> Hello</h1>
+    <p> The styles applied for the above H1 element is <br>
+        h1{<br>
+         color: green;<br>
+        }<br>
+        h1.withClass{<br>
+            color:red;<br>
+        }<br>
+        h1#withId{<br>
+            color:blue;<br>
+        }<br>
+ For the same same h1 html element we have applied inline style to set the color as orange. <br>
+ Same h1 html element we have applied color as Green <br>
+ Same h1 html element we defined class as "withClass" we have applied color as Red <br>
+ Same h1 html element we defined id as "withId"  we have applied color as Blue. <br><br>
+ 
+ In this case, the priority will always goes in this order <br>
+ Inline styling > withId styling > withClass styling > h1 element styling.<br><br>
+
+If you wish to see the color of heading as blue then we have to remove the inline styling. If you wish to see the heading as RED then we have to remove styling with Id. Green if you remove the styling with class.
+</p>
+</body>
+</html>
