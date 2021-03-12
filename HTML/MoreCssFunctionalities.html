@@ -34,8 +34,38 @@ If you wish to see the color of heading as blue then we have to remove the inlin
 
 <br><br>
 Let's say if the h1 has two classes assigned "withClass" and "anotherClass" for one I applied Red and for another I applied blueviolet. In this case the one which is defined later in css file will take the priority<br> 
-if you wish to override this behaviour the we can add "!important" to any of the css styling then only that will take the priority. However, this is not a recommended practice.
+if you wish to override this behaviour the we can add "!important" to any of the css styling then only that will take the priority. However, this is not a recommended practice. If you wish to see the RED heading then if we remove the h1 prefix from the styling then we will see RED heading irrecpective of the place in stylesheet. In order to understand why the RED heading is getting displayed we should understand how the specificity will be caliculated in css.
+</p>
+
+    <h1>Caliculating Specificity</h1>
+<p class="para">We the priority in which the styling will take place <br>
+Inline styling > id selector > class selector > h1 html element.
+
+lets see how the specificity score is caliculated for following styling <br>
+h1{<br>
+    color: green;<br>
+   }<br>
+The above styling has no inline stylying so the score is zero <br>
+The above styling has no id selector so the score is zero<br>
+The above styling has no class selector  so the score is zero<br>
+The above styling has only html tag  stylying so the score is one <br>
+
+0-0-0-1 = 1
+
+lets see how the specificity score is caliculated for following styling <br>
+h1.withClass{<br>
+    color:red;<br>
+}<br>
+The above styling has no inline stylying so the score is zero <br>
+The above styling has no id selector so the score is zero<br>
+The above styling has class selector  so the score is one<br>
+The above styling has only html tag  stylying so the score is one <br>
+
+0-0-1-1 = 11
+
+so this will take priority then previous specificity score.
 
 </p>
+
 </body>
 </html>

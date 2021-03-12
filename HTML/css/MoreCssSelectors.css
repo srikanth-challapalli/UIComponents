@@ -29,3 +29,6 @@ section.my-article-1 h2+p{
     background-color: #f0ebeb;
     color: violet;
 }
+.para{
+    padding: 4px;
+}

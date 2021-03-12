@@ -10,3 +10,9 @@ h1#withId{
 h1.anotherClass{
     color: blueviolet;
 }
+
+.para{
+
+    border: 1px solid red;
+    padding: 10px;
+}
