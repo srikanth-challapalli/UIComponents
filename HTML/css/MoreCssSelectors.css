@@ -1,5 +1,6 @@
 *{
-    color: blue; /*This is universal tag ; this means all the text which is present in the page will change the color to blue*/
+    color: blue; /*This is universal tag ; this means all the text which is present in the page will change the 
+    color to blue*/
 }
 header{
     background-color: #f0ebeb;
@@ -16,7 +17,8 @@ li a{
 }
 
 section.my-article >h2 {
-    color:rgb(209, 101, 119) /*The secton tag which has a class name as "my-article" and the immediate h2 tag will only change the color*/
+    color:rgb(209, 101, 119) /*The secton tag which has a class name as "my-article" and the immediate h2 
+    tag will only change the color*/
 }
 h2+p{
     color :gray /*A paragraph which is immediate to h2 will change the color to gray*/

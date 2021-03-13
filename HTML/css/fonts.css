@@ -1,5 +1,6 @@
 /*
-Though we applied font-family to entire body this will not take effect as we applied font to individual section of html elements*/
+Though we applied font-family to entire body this will not take effect as we applied font to individual section of 
+html elements*/
 body{
     font-family: Arial, Helvetica, sans-serif;
 } 
