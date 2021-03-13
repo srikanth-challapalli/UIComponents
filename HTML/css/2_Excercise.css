@@ -1,0 +1,27 @@
+
+.heading{
+    background-color: lightgrey;
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 10px;
+}
+.paraOne{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 2%;
+   
+}
+.paraTwo{
+    border: 1px solid black;
+    padding: 10px;
+   
+}
+h2{
+    text-transform: uppercase;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    
+}
+
